@@ -1,0 +1,43 @@
+@media (max-width: 1100px) {
+    body {
+        background-color: black;
+    }
+.container {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 30px;    
+}
+
+.container .polonia {
+    max-width: 40%;
+    display: auto;
+}
+.container .informacoes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container .descricao {
+    align-items: center;
+}
+}
+
+@media (max-width: 500px) {
+    .cabecalho {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .container .imagem-titulo {
+        max-width: 60%;
+    }
+    .modal .fechar-modal {
+        width: 30px;
+        line-height: 30px;
+    }
+    .modal #video {
+        width: 300px;
+        height: 169px;
+    }
+}

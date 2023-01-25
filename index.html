@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <title>Polonia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/imagens/video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/logo.png" alt="logo polonia">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/titulo.png">
+            <p>A Polônia é um país localizado na Europa Central. Faz fronteiras com a Alemanha ao Oeste, com a República Tcheca e Eslováquia ao Sul, com a Lituânia, Bielorússia e Ucrânia ao Leste, e com a Região do Kaliningrado que pertence a Rússia, e o mar Báltico ao Norte. tem cerca de 38.3 Milhões de Habitantes com sua maior cidade e capital sendo varsóvia, seu principal idioma é o polones.</p>
+            <button class="hino">Escutar Hino</button>
+        </div>
+        <img class="polonia" src="./src/imagens/polonia.png">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/wPPBpIT1W4U" title="Hino da Polonia" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
